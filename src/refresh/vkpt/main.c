@@ -1815,7 +1815,7 @@ evaluate_reference_mode(reference_mode_t* ref_mode)
 		num_accumulated_frames++;
 
 		const int num_warmup_frames = 5;
-		const int num_frames_to_accumulate = 500;
+		const int num_frames_to_accumulate = 1500;
 
 		ref_mode->enable_accumulation = qtrue;
 		ref_mode->enable_denoiser = qfalse;

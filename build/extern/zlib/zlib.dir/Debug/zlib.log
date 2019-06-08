@@ -1,0 +1,25 @@
+﻿  Building Custom Rule C:/q2/q2rtx/extern/zlib/CMakeLists.txt
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/zlib/CMakeFiles/generate.stamp is up-to-date.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+C:\q2\q2rtx\extern\zlib\gzread.c(319,20): warning C4267:  '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\q2\q2rtx\extern\zlib\gzread.c(400,35): warning C4267:  '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\q2\q2rtx\extern\zlib\gzread.c(472,33): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+C:\q2\q2rtx\extern\zlib\gzwrite.c(212,27): warning C4267:  '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\q2\q2rtx\extern\zlib\gzwrite.c(232,24): warning C4267:  '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  trees.c
+  uncompr.c
+  zutil.c
+C:\q2\q2rtx\extern\zlib\gzwrite.c(371,36): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+     Creating library C:/q2/q2rtx/build/extern/zlib/Debug/zlibd.lib and object C:/q2/q2rtx/build/extern/zlib/Debug/zlibd.exp
+  zlib.vcxproj -> C:\q2\q2rtx\build\Bin\Debug\zlibd.dll

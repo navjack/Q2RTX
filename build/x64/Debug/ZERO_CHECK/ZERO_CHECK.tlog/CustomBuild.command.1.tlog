@@ -1,0 +1,10 @@
+^C:\Q2\Q2RTX\BUILD\CMAKEFILES\F2D29352FE40E0225E00EEE83AD1BB44\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/q2/q2rtx -BC:/q2/q2rtx/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/q2/q2rtx/build/quake2-RTX.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

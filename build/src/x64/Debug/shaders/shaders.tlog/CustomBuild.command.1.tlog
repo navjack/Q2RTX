@@ -1,0 +1,450 @@
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ANIMATE_MATERIALS.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/animate_materials.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/animate_materials.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\GOD_RAYS_FILTER.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/god_rays_filter.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/god_rays_filter.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\GOD_RAYS.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/god_rays.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/god_rays.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\BLOOM_COMPOSITE.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/bloom_composite.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/bloom_composite.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\BLOOM_BLUR.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/bloom_blur.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/bloom_blur.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PRIMARY_RAYS.RGEN
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_RGEN C:/q2/q2rtx/src/refresh/vkpt/shader/primary_rays.rgen -o C:/q2/q2rtx/baseq2/shader_vkpt/primary_rays.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\DIRECT_LIGHTING.RGEN
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_RGEN C:/q2/q2rtx/src/refresh/vkpt/shader/direct_lighting.rgen -o C:/q2/q2rtx/baseq2/shader_vkpt/direct_lighting.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\CHECKERBOARD_INTERLEAVE.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/checkerboard_interleave.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/checkerboard_interleave.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\INDIRECT_LIGHTING.RGEN
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_RGEN C:/q2/q2rtx/src/refresh/vkpt/shader/indirect_lighting.rgen -o C:/q2/q2rtx/baseq2/shader_vkpt/indirect_lighting.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PATH_TRACER.RCHIT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_RCHIT C:/q2/q2rtx/src/refresh/vkpt/shader/path_tracer.rchit -o C:/q2/q2rtx/baseq2/shader_vkpt/path_tracer.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PATH_TRACER.RMISS
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_RMISS C:/q2/q2rtx/src/refresh/vkpt/shader/path_tracer.rmiss -o C:/q2/q2rtx/baseq2/shader_vkpt/path_tracer.rmiss.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PATH_TRACER_PARTICLE.RAHIT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_ACHIT C:/q2/q2rtx/src/refresh/vkpt/shader/path_tracer_particle.rahit -o C:/q2/q2rtx/baseq2/shader_vkpt/path_tracer_particle.rahit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PATH_TRACER_SPRITE.RAHIT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_ACHIT C:/q2/q2rtx/src/refresh/vkpt/shader/path_tracer_sprite.rahit -o C:/q2/q2rtx/baseq2/shader_vkpt/path_tracer_sprite.rahit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PATH_TRACER_BEAM.RAHIT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_ACHIT C:/q2/q2rtx/src/refresh/vkpt/shader/path_tracer_beam.rahit -o C:/q2/q2rtx/baseq2/shader_vkpt/path_tracer_beam.rahit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PATH_TRACER_EXPLOSION.RAHIT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_ACHIT C:/q2/q2rtx/src/refresh/vkpt/shader/path_tracer_explosion.rahit -o C:/q2/q2rtx/baseq2/shader_vkpt/path_tracer_explosion.rahit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PATH_TRACER_SHADOW.RMISS
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_RMISS C:/q2/q2rtx/src/refresh/vkpt/shader/path_tracer_shadow.rmiss -o C:/q2/q2rtx/baseq2/shader_vkpt/path_tracer_shadow.rmiss.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_ATROUS.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_atrous.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_atrous.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_FWD_PROJECT.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_fwd_project.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_fwd_project.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_GRADIENT_ATROUS.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_gradient_atrous.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_gradient_atrous.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_GRADIENT_IMG.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_gradient_img.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_gradient_img.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_LF.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_lf.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_lf.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_SEED_RNG.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_seed_rng.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_seed_rng.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_TAA.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_taa.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_taa.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\ASVGF_TEMPORAL.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/asvgf_temporal.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/asvgf_temporal.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\INSTANCE_GEOMETRY.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/instance_geometry.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/instance_geometry.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\TONE_MAPPING_HISTOGRAM.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/tone_mapping_histogram.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/tone_mapping_histogram.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\TONE_MAPPING_CURVE.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/tone_mapping_curve.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/tone_mapping_curve.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\TONE_MAPPING_APPLY.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/tone_mapping_apply.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/tone_mapping_apply.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PHYSICAL_SKY.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/physical_sky.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/physical_sky.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\PHYSICAL_SKY_SPACE.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/physical_sky_space.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/physical_sky_space.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\SHADOW_MAP.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_VERT C:/q2/q2rtx/src/refresh/vkpt/shader/shadow_map.vert -o C:/q2/q2rtx/baseq2/shader_vkpt/shadow_map.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\SKY_BUFFER_RESOLVE.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_COMP C:/q2/q2rtx/src/refresh/vkpt/shader/sky_buffer_resolve.comp -o C:/q2/q2rtx/baseq2/shader_vkpt/sky_buffer_resolve.comp.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\STRETCH_PIC.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_FRAG C:/q2/q2rtx/src/refresh/vkpt/shader/stretch_pic.frag -o C:/q2/q2rtx/baseq2/shader_vkpt/stretch_pic.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\STRETCH_PIC.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_VERT C:/q2/q2rtx/src/refresh/vkpt/shader/stretch_pic.vert -o C:/q2/q2rtx/baseq2/shader_vkpt/stretch_pic.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\FINAL_BLIT_LANCZOS.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_FRAG C:/q2/q2rtx/src/refresh/vkpt/shader/final_blit_lanczos.frag -o C:/q2/q2rtx/baseq2/shader_vkpt/final_blit_lanczos.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\REFRESH\VKPT\SHADER\FINAL_BLIT.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/q2/q2rtx/baseq2/shader_vkpt
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.1.101.0\Bin\glslangValidator.exe --target-env vulkan1.1 -DVKPT_SHADER -V -DSHADER_STAGE_VERT C:/q2/q2rtx/src/refresh/vkpt/shader/final_blit.vert -o C:/q2/q2rtx/baseq2/shader_vkpt/final_blit.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\BUILD\CMAKEFILES\E36D112385646C3B59EB4AFCA547C30D\SHADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\Q2\Q2RTX\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/q2/q2rtx -BC:/q2/q2rtx/build --check-stamp-file C:/q2/q2rtx/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

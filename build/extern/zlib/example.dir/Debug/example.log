@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/q2/q2rtx/extern/zlib/CMakeLists.txt
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/zlib/CMakeFiles/generate.stamp is up-to-date.
+  example.c
+  example.vcxproj -> C:\q2\q2rtx\build\Bin\Debug\example.exe

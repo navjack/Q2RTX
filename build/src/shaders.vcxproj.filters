@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\animate_materials.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\god_rays_filter.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\god_rays.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\bloom_composite.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\bloom_blur.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\primary_rays.rgen">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\direct_lighting.rgen">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\checkerboard_interleave.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\indirect_lighting.rgen">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\path_tracer.rchit">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\path_tracer.rmiss">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\path_tracer_particle.rahit">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\path_tracer_sprite.rahit">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\path_tracer_beam.rahit">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\path_tracer_explosion.rahit">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\path_tracer_shadow.rmiss">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_atrous.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_fwd_project.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_gradient_atrous.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_gradient_img.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_lf.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_seed_rng.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_taa.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\asvgf_temporal.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\instance_geometry.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\tone_mapping_histogram.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\tone_mapping_curve.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\tone_mapping_apply.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\physical_sky.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\physical_sky_space.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\shadow_map.vert">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\sky_buffer_resolve.comp">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\stretch_pic.frag">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\stretch_pic.vert">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\final_blit_lanczos.frag">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\refresh\vkpt\shader\final_blit.vert">
+      <Filter>refresh\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\build\CMakeFiles\e36d112385646c3b59eb4afca547c30d\shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\q2\q2rtx\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\q2\q2rtx\build\src\CMakeFiles\shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A0672439-F9F4-36F0-926A-4BD7C91A6473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="refresh">
+      <UniqueIdentifier>{660C9E05-6DB2-3C9A-9393-AE5021493776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="refresh\shaders">
+      <UniqueIdentifier>{4E43C057-4C05-37BE-B916-5E3762753B8F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

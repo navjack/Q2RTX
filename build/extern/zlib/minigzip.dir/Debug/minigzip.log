@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/q2/q2rtx/extern/zlib/CMakeLists.txt
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/zlib/CMakeFiles/generate.stamp is up-to-date.
+  minigzip.c
+C:\q2\q2rtx\extern\zlib\test\minigzip.c(503,1): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  minigzip.vcxproj -> C:\q2\q2rtx\build\Bin\Debug\minigzip.exe

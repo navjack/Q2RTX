@@ -1,0 +1,8 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/q2/q2rtx/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/zlib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/SDL2/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/curl/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/curl/lib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/q2/q2rtx/build/src/CMakeFiles/generate.stamp is up-to-date.

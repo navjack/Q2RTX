@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ascii.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\console.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\crc.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\demo.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\download.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\effects.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\entities.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\gtv.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\input.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\keys.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\locs.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\main.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\newfx.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\parse.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\precache.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\predict.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\refresh.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\screen.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\tent.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\view.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ui\demos.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ui\menu.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ui\playerconfig.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ui\playermodels.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ui\script.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ui\servers.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\ui\ui.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\sound\dma.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\sound\al.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\sound\main.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\sound\mem.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\sound\mix.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\sound\qal\dynamic.c">
+      <Filter>client\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\bsp.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\cmd.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\cmodel.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\common.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\cvar.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\error.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\field.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\fifo.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\files.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\math.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\mdfour.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\msg.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\pmove.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\prompt.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\sizebuf.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\utils.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\zone.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\net\chan.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\net\net.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\x86\fpu.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\images.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\models.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\stb\stb.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\shared\m_flash.c">
+      <Filter>shared\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\shared\shared.c">
+      <Filter>shared\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\ac.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\debug.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\hunk.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\system.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\wave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\unix\sdl2\video.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\commands.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\entities.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\game.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\init.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\main.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\send.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\user.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\world.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\client.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\parse.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\game.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\save.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\draw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\hq2x.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\images.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\mesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\models.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\sky.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\surf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\tess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\world.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\gl\qgl\dynamic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\asvgf.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\bloom.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\bsp_mesh.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\draw.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\main.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\material.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\matrix.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\mgpu.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\models.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\path_tracer.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\physical_sky.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\precomputed_sky.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\profiler.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\shadow_map.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\textures.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\tone_mapping.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\transparency.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\uniform_buffer.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\vertex_buffer.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\vk_util.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\buddy_allocator.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\device_memory_allocator.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\refresh\vkpt\god_rays.c">
+      <Filter>refresh\sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\q2\q2rtx\src\client\client.h">
+      <Filter>client\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\client\ui\ui.h">
+      <Filter>client\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\client\sound\sound.h">
+      <Filter>client\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\client\sound\qal\dynamic.h">
+      <Filter>client\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\client\sound\qal\fixed.h">
+      <Filter>client\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\inet_ntop.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\inet_pton.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\win.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\wgl.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\glimp.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\client.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\threads\threads.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\server\server.h">
+      <Filter>server\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\gl\arbfp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\gl\gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\vkpt\vkpt.h">
+      <Filter>refresh\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\vkpt\vk_util.h">
+      <Filter>refresh\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\vkpt\buddy_allocator.h">
+      <Filter>refresh\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\vkpt\device_memory_allocator.h">
+      <Filter>refresh\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\vkpt\material.h">
+      <Filter>refresh\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\vkpt\physical_sky.h">
+      <Filter>refresh\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\refresh\vkpt\precomputed_sky.h">
+      <Filter>refresh\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\q2\q2rtx\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\q2\q2rtx\src\windows\res\q2rtx.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4A191BFE-9D41-3C7D-8FD5-A6CAAE99C1D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C1DAE7C-94A3-3D2D-81F4-B2F98C000535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{F91B1C6B-C158-3AAC-B527-42245859356D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\headers">
+      <UniqueIdentifier>{4BFEA44E-220C-3489-9709-4F60F2812823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\sources">
+      <UniqueIdentifier>{D2236C4B-AB01-3422-8566-BBE3B7C8F65C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{F6F0E7B4-8BB4-3539-99EF-32615CA82B1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\headers">
+      <UniqueIdentifier>{91989931-9F10-3253-981B-D251F17FF68E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\sources">
+      <UniqueIdentifier>{BFD2E837-CAD2-394F-9582-A98EC85587C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="refresh">
+      <UniqueIdentifier>{660C9E05-6DB2-3C9A-9393-AE5021493776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="refresh\headers">
+      <UniqueIdentifier>{AF85D8C2-84C5-3931-872B-98865A59E1F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="refresh\shaders">
+      <UniqueIdentifier>{4E43C057-4C05-37BE-B916-5E3762753B8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="refresh\sources">
+      <UniqueIdentifier>{F110CB5C-B2BF-3342-B8AB-700F99270A97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{911A4EF0-6783-3901-A52F-51576E559197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\headers">
+      <UniqueIdentifier>{D6253A7B-ECB7-37F2-B522-06993BAEFCAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\sources">
+      <UniqueIdentifier>{FC1177B3-0366-3E5B-BF0A-14040770B5EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{3C657208-F89F-3D9A-AE91-11C1AAF5750B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared\sources">
+      <UniqueIdentifier>{6D27C042-0A7A-368A-A6E2-C374A11A01A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{2F1F6B33-94F4-3519-B6C7-DB2C59330FA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows\headers">
+      <UniqueIdentifier>{F7F80C84-27C9-31DF-BAF1-ED273BE7A0D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows\sources">
+      <UniqueIdentifier>{B216B919-BC2B-3200-A10A-A780EE4D4180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

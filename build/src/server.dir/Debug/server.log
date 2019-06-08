@@ -1,0 +1,45 @@
+﻿  Building Custom Rule C:/q2/q2rtx/src/CMakeLists.txt
+  CMake does not need to re-run because C:/q2/q2rtx/build/src/CMakeFiles/generate.stamp is up-to-date.
+  bsp.c
+  cmd.c
+  cmodel.c
+  common.c
+  cvar.c
+  error.c
+  field.c
+  fifo.c
+  files.c
+  math.c
+  mdfour.c
+  msg.c
+  pmove.c
+  prompt.c
+  sizebuf.c
+  utils.c
+  zone.c
+  chan.c
+  net.c
+  fpu.c
+  m_flash.c
+  shared.c
+  debug.c
+  hunk.c
+  system.c
+  commands.c
+  entities.c
+  init.c
+  main.c
+  mvd.c
+  send.c
+  user.c
+  world.c
+  client.c
+  parse.c
+  save.c
+  null.c
+  ac.c
+  game.c
+  game.c
+  ac.c
+     Creating library C:/q2/q2rtx/build/src/Debug/q2rtxded.lib and object C:/q2/q2rtx/build/src/Debug/q2rtxded.exp
+  server.vcxproj -> C:\q2\q2rtx\q2rtxded.exe

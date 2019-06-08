@@ -1,0 +1,158 @@
+[2019-06-08 00:25] Logging console to logs/console.log
+[2019-06-08 00:25] Execing default.cfg
+[2019-06-08 00:25] Execing q2rtx.cfg
+[2019-06-08 00:25] Execing q2config.cfg
+[2019-06-08 00:25] mode changed 1280 720
+[2019-06-08 00:25] Loaded 'materials.csv' (fast search = true)
+[2019-06-08 00:25] ----- init_vulkan -----
+[2019-06-08 00:25] Available Vulkan layers: 
+[2019-06-08 00:25]   VK_LAYER_NV_optimus
+[2019-06-08 00:25]   VK_LAYER_DxtoryHookHelper
+[2019-06-08 00:25]   VK_LAYER_VALVE_steam_overlay
+[2019-06-08 00:25]   VK_LAYER_VALVE_steam_fossilize
+[2019-06-08 00:25]   VK_LAYER_RENDERDOC_Capture
+[2019-06-08 00:25]   VK_LAYER_NV_nsight
+[2019-06-08 00:25]   VK_LAYER_NV_nomad_release_public_2019_3_0
+[2019-06-08 00:25]   VK_LAYER_LUNARG_api_dump
+[2019-06-08 00:25]   VK_LAYER_LUNARG_assistant_layer
+[2019-06-08 00:25]   VK_LAYER_LUNARG_core_validation
+[2019-06-08 00:25]   VK_LAYER_LUNARG_device_simulation
+[2019-06-08 00:25]   VK_LAYER_LUNARG_monitor
+[2019-06-08 00:25]   VK_LAYER_LUNARG_object_tracker
+[2019-06-08 00:25]   VK_LAYER_LUNARG_screenshot
+[2019-06-08 00:25]   VK_LAYER_LUNARG_standard_validation
+[2019-06-08 00:25]   VK_LAYER_LUNARG_parameter_validation
+[2019-06-08 00:25]   VK_LAYER_GOOGLE_threading
+[2019-06-08 00:25]   VK_LAYER_GOOGLE_unique_objects
+[2019-06-08 00:25]   VK_LAYER_LUNARG_vktrace
+[2019-06-08 00:25]   VK_LAYER_NV_nsight-sys
+[2019-06-08 00:25] Vulkan instance extensions required by SDL2: 
+[2019-06-08 00:25]   VK_KHR_surface
+[2019-06-08 00:25]   VK_KHR_win32_surface
+[2019-06-08 00:25] Supported Vulkan instance extensions: 
+[2019-06-08 00:25]   VK_KHR_device_group_creation (requested)
+[2019-06-08 00:25]   VK_KHR_external_fence_capabilities
+[2019-06-08 00:25]   VK_KHR_external_memory_capabilities
+[2019-06-08 00:25]   VK_KHR_external_semaphore_capabilities
+[2019-06-08 00:25]   VK_KHR_get_physical_device_properties2
+[2019-06-08 00:25]   VK_KHR_get_surface_capabilities2
+[2019-06-08 00:25]   VK_KHR_surface (requested)
+[2019-06-08 00:25]   VK_KHR_win32_surface (requested)
+[2019-06-08 00:25]   VK_EXT_debug_report (requested)
+[2019-06-08 00:25]   VK_EXT_debug_utils (requested)
+[2019-06-08 00:25]   VK_EXT_swapchain_colorspace
+[2019-06-08 00:25]   VK_NV_external_memory_capabilities
+[2019-06-08 00:25] Physical device 0: GeForce RTX 2080 Ti
+[2019-06-08 00:25] Max number of allocations: 4096
+[2019-06-08 00:25] Supported Vulkan device extensions:
+[2019-06-08 00:25]   VK_KHR_8bit_storage
+[2019-06-08 00:25]   VK_KHR_16bit_storage
+[2019-06-08 00:25]   VK_KHR_bind_memory2
+[2019-06-08 00:25]   VK_KHR_create_renderpass2
+[2019-06-08 00:25]   VK_KHR_dedicated_allocation
+[2019-06-08 00:25]   VK_KHR_depth_stencil_resolve
+[2019-06-08 00:25]   VK_KHR_descriptor_update_template
+[2019-06-08 00:25]   VK_KHR_device_group
+[2019-06-08 00:25]   VK_KHR_draw_indirect_count
+[2019-06-08 00:25]   VK_KHR_driver_properties
+[2019-06-08 00:25]   VK_KHR_external_fence
+[2019-06-08 00:25]   VK_KHR_external_fence_win32
+[2019-06-08 00:25]   VK_KHR_external_memory
+[2019-06-08 00:25]   VK_KHR_external_memory_win32
+[2019-06-08 00:25]   VK_KHR_external_semaphore
+[2019-06-08 00:25]   VK_KHR_external_semaphore_win32
+[2019-06-08 00:25]   VK_KHR_get_memory_requirements2
+[2019-06-08 00:25]   VK_KHR_image_format_list
+[2019-06-08 00:25]   VK_KHR_maintenance1
+[2019-06-08 00:25]   VK_KHR_maintenance2
+[2019-06-08 00:25]   VK_KHR_maintenance3
+[2019-06-08 00:25]   VK_KHR_multiview
+[2019-06-08 00:25]   VK_KHR_push_descriptor
+[2019-06-08 00:25]   VK_KHR_relaxed_block_layout
+[2019-06-08 00:25]   VK_KHR_sampler_mirror_clamp_to_edge
+[2019-06-08 00:25]   VK_KHR_sampler_ycbcr_conversion
+[2019-06-08 00:25]   VK_KHR_shader_atomic_int64
+[2019-06-08 00:25]   VK_KHR_shader_draw_parameters
+[2019-06-08 00:25]   VK_KHR_shader_float16_int8
+[2019-06-08 00:25]   VK_KHR_shader_float_controls
+[2019-06-08 00:25]   VK_KHR_storage_buffer_storage_class
+[2019-06-08 00:25]   VK_KHR_swapchain
+[2019-06-08 00:25]   VK_KHR_swapchain_mutable_format
+[2019-06-08 00:25]   VK_KHR_variable_pointers
+[2019-06-08 00:25]   VK_KHR_vulkan_memory_model
+[2019-06-08 00:25]   VK_KHR_win32_keyed_mutex
+[2019-06-08 00:25]   VK_EXT_blend_operation_advanced
+[2019-06-08 00:25]   VK_EXT_buffer_device_address
+[2019-06-08 00:25]   VK_EXT_conditional_rendering
+[2019-06-08 00:25]   VK_EXT_conservative_rasterization
+[2019-06-08 00:25]   VK_EXT_depth_clip_enable
+[2019-06-08 00:25]   VK_EXT_depth_range_unrestricted
+[2019-06-08 00:25]   VK_EXT_descriptor_indexing
+[2019-06-08 00:25]   VK_EXT_discard_rectangles
+[2019-06-08 00:25]   VK_EXT_external_memory_host
+[2019-06-08 00:25]   VK_EXT_hdr_metadata
+[2019-06-08 00:25]   VK_EXT_host_query_reset
+[2019-06-08 00:25]   VK_EXT_inline_uniform_block
+[2019-06-08 00:25]   VK_EXT_memory_budget
+[2019-06-08 00:25]   VK_EXT_memory_priority
+[2019-06-08 00:25]   VK_EXT_pci_bus_info
+[2019-06-08 00:25]   VK_EXT_post_depth_coverage
+[2019-06-08 00:25]   VK_EXT_sample_locations
+[2019-06-08 00:25]   VK_EXT_sampler_filter_minmax
+[2019-06-08 00:25]   VK_EXT_scalar_block_layout
+[2019-06-08 00:25]   VK_EXT_shader_subgroup_ballot
+[2019-06-08 00:25]   VK_EXT_shader_subgroup_vote
+[2019-06-08 00:25]   VK_EXT_shader_viewport_index_layer
+[2019-06-08 00:25]   VK_EXT_transform_feedback
+[2019-06-08 00:25]   VK_EXT_vertex_attribute_divisor
+[2019-06-08 00:25]   VK_NV_clip_space_w_scaling
+[2019-06-08 00:25]   VK_NV_compute_shader_derivatives
+[2019-06-08 00:25]   VK_NV_cooperative_matrix
+[2019-06-08 00:25]   VK_NV_corner_sampled_image
+[2019-06-08 00:25]   VK_NV_dedicated_allocation
+[2019-06-08 00:25]   VK_NV_dedicated_allocation_image_aliasing
+[2019-06-08 00:25]   VK_NV_device_diagnostic_checkpoints
+[2019-06-08 00:25]   VK_NV_external_memory
+[2019-06-08 00:25]   VK_NV_external_memory_win32
+[2019-06-08 00:25]   VK_NV_fill_rectangle
+[2019-06-08 00:25]   VK_NV_fragment_coverage_to_color
+[2019-06-08 00:25]   VK_NV_fragment_shader_barycentric
+[2019-06-08 00:25]   VK_NV_framebuffer_mixed_samples
+[2019-06-08 00:25]   VK_NV_geometry_shader_passthrough
+[2019-06-08 00:25]   VK_NV_mesh_shader
+[2019-06-08 00:25]   VK_NV_sample_mask_override_coverage
+[2019-06-08 00:25]   VK_NV_representative_fragment_test
+[2019-06-08 00:25]   VK_NV_scissor_exclusive
+[2019-06-08 00:25]   VK_NV_shader_image_footprint
+[2019-06-08 00:25]   VK_NV_shader_subgroup_partitioned
+[2019-06-08 00:25]   VK_NV_shading_rate_image
+[2019-06-08 00:25]   VK_NV_viewport_array2
+[2019-06-08 00:25]   VK_NV_viewport_swizzle
+[2019-06-08 00:25]   VK_NV_win32_keyed_mutex
+[2019-06-08 00:25]   VK_NVX_binary_import
+[2019-06-08 00:25]   VK_NVX_device_generated_commands
+[2019-06-08 00:25]   VK_NVX_image_view_handle
+[2019-06-08 00:25]   VK_NVX_multiview_per_view_attributes
+[2019-06-08 00:25]   VK_NV_ray_tracing
+[2019-06-08 00:25]   VK_EXT_debug_marker
+[2019-06-08 00:25] Picked physical device 0: GeForce RTX 2080 Ti
+[2019-06-08 00:25] NVIDIA GPU detected. Driver version: 430.86
+[2019-06-08 00:25] -----------------------
+[2019-06-08 00:25] Screen-space image memory: 281.63 MB
+[2019-06-08 00:25] Maximum recursion depth: 31
+[2019-06-08 00:25] Shader group handle size: 16
+[2019-06-08 00:25] ------- S_Init -------
+[2019-06-08 00:25] OpenAL initialized.
+[2019-06-08 00:25] ----------------------
+[2019-06-08 00:25] SDL mouse initialized.
+[2019-06-08 00:25] ====== Quake II RTX initialized ======
+[2019-06-08 00:25] 
+[2019-06-08 00:25] q2rtx 1.0.0-f00a5ba, Jun  7 2019
+[2019-06-08 00:25] No server running.
+[2019-06-08 00:25] Loaded game library from C:\q2\q2rtx\baseq2\gamex86_64.dll
+[2019-06-08 00:25] ==== InitGame ====
+[2019-06-08 00:25] ------- Server Initialization -------
+[2019-06-08 00:25] SpawnServer: base1
+[2019-06-08 00:25] 28 entities inhibited
+[2019-06-08 00:25] 1 teams with 2 entities
+[2019-06-08 00:2

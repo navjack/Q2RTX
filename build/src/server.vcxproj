@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A13D673A-2EEE-3AAB-960D-A14E21B08CF3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>server</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/q2/q2rtx</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\q2\q2rtx\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">server.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">q2rtxded</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/q2/q2rtx</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\q2\q2rtx\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">server.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">q2rtxded</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/q2/q2rtx</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\q2\q2rtx\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">server.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">q2rtxded</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/q2/q2rtx</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\q2\q2rtx\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">server.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">q2rtxded</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;..\extern\SDL2\Debug\SDL2maind.lib;..\extern\SDL2\Debug\SDL2d.lib;..\extern\zlib\Debug\zlibstaticd.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/q2/q2rtx/.;C:/q2/q2rtx/./$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/q2/q2rtx/build/src/Debug/q2rtxded.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/q2/q2rtx/q2rtxded.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;..\extern\SDL2\Release\SDL2main.lib;..\extern\SDL2\Release\SDL2.lib;..\extern\zlib\Release\zlibstatic.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/q2/q2rtx/.;C:/q2/q2rtx/./$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/q2/q2rtx/build/src/Release/q2rtxded.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/q2/q2rtx/q2rtxded.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;..\extern\SDL2\MinSizeRel\SDL2main.lib;..\extern\SDL2\MinSizeRel\SDL2.lib;..\extern\zlib\MinSizeRel\zlibstatic.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/q2/q2rtx/.;C:/q2/q2rtx/./$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/q2/q2rtx/build/src/MinSizeRel/q2rtxded.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/q2/q2rtx/q2rtxded.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_SERVER=1;USE_CLIENT=0;VERSION_MAJOR=1;VERSION_MINOR=0;VERSION_POINT=0;VERSION_SHA=f00a5ba;HAVE_CONFIG_H=1;CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\q2\q2rtx\src\..\VC\inc;C:\q2\q2rtx\src\..\inc;C:\q2\q2rtx\src;C:\q2\q2rtx\extern\SDL2\include;C:\q2\q2rtx\extern\zlib;C:\q2\q2rtx\build\extern\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;..\extern\SDL2\RelWithDebInfo\SDL2main.lib;..\extern\SDL2\RelWithDebInfo\SDL2.lib;..\extern\zlib\RelWithDebInfo\zlibstatic.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/q2/q2rtx/.;C:/q2/q2rtx/./$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/q2/q2rtx/build/src/RelWithDebInfo/q2rtxded.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/q2/q2rtx/q2rtxded.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\q2\q2rtx\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/q2/q2rtx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/q2/q2rtx -BC:/q2/q2rtx/build --check-stamp-file C:/q2/q2rtx/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/q2/q2rtx/src/CMakeLists.txt;C:\q2\q2rtx\cmake\compileShaders.cmake;C:\q2\q2rtx\src\CMakeLists.txt;C:\q2\q2rtx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\q2\q2rtx\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/q2/q2rtx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/q2/q2rtx -BC:/q2/q2rtx/build --check-stamp-file C:/q2/q2rtx/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/q2/q2rtx/src/CMakeLists.txt;C:\q2\q2rtx\cmake\compileShaders.cmake;C:\q2\q2rtx\src\CMakeLists.txt;C:\q2\q2rtx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\q2\q2rtx\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/q2/q2rtx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/q2/q2rtx -BC:/q2/q2rtx/build --check-stamp-file C:/q2/q2rtx/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/q2/q2rtx/src/CMakeLists.txt;C:\q2\q2rtx\cmake\compileShaders.cmake;C:\q2\q2rtx\src\CMakeLists.txt;C:\q2\q2rtx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\q2\q2rtx\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/q2/q2rtx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/q2/q2rtx -BC:/q2/q2rtx/build --check-stamp-file C:/q2/q2rtx/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/q2/q2rtx/src/CMakeLists.txt;C:\q2\q2rtx\cmake\compileShaders.cmake;C:\q2\q2rtx\src\CMakeLists.txt;C:\q2\q2rtx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\q2\q2rtx\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\q2\q2rtx\src\common\bsp.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\cmd.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\cmodel.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\common.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\cvar.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\error.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\field.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\fifo.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\files.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\math.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\mdfour.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\msg.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\pmove.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\prompt.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\sizebuf.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\utils.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\zone.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\net\chan.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\net\net.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\common\x86\fpu.c" />
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\inet_ntop.h" />
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\inet_pton.h" />
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\win.h" />
+    <ClCompile Include="C:\q2\q2rtx\src\shared\m_flash.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\shared\shared.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\windows\ac.c">
+      <ObjectFileName>$(IntDir)/windows/ac.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\debug.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\windows\hunk.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\windows\system.c" />
+    <ClInclude Include="C:\q2\q2rtx\src\windows\wgl.h" />
+    <ClInclude Include="C:\q2\q2rtx\src\windows\glimp.h" />
+    <ClInclude Include="C:\q2\q2rtx\src\windows\client.h" />
+    <ClInclude Include="C:\q2\q2rtx\src\windows\threads\threads.h" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\commands.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\entities.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\game.c">
+      <ObjectFileName>$(IntDir)/server/game.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\init.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\main.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\send.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\user.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\world.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\client.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\parse.c" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\game.c">
+      <ObjectFileName>$(IntDir)/server/mvd/game.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\save.c" />
+    <ClInclude Include="C:\q2\q2rtx\src\server\server.h" />
+    <ClCompile Include="C:\q2\q2rtx\src\server\ac.c">
+      <ObjectFileName>$(IntDir)/server/ac.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\null.c" />
+    <ResourceCompile Include="C:\q2\q2rtx\src\windows\res\q2rtxded.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\q2\q2rtx\build\ZERO_CHECK.vcxproj">
+      <Project>{EA335473-2B8B-3808-8518-5452FE078E13}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\q2\q2rtx\build\extern\SDL2\SDL2-static.vcxproj">
+      <Project>{76541E40-94A8-3103-8F3D-E28A577EEB20}</Project>
+      <Name>SDL2-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\q2\q2rtx\build\extern\SDL2\SDL2main.vcxproj">
+      <Project>{776D9788-898A-3C8E-A940-D67AF745B6D5}</Project>
+      <Name>SDL2main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\q2\q2rtx\build\extern\zlib\zlibstatic.vcxproj">
+      <Project>{E1D790B7-81EB-32D0-820E-67B9E5BB1E3D}</Project>
+      <Name>zlibstatic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

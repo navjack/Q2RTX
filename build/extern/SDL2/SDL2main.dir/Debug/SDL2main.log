@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/q2/q2rtx/extern/SDL2/CMakeLists.txt
+  CMake does not need to re-run because C:/q2/q2rtx/build/extern/SDL2/CMakeFiles/generate.stamp is up-to-date.
+  SDL_windows_main.c
+  SDL2main.vcxproj -> C:\q2\q2rtx\build\extern\SDL2\Debug\SDL2maind.lib

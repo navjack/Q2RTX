@@ -1,0 +1,34 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.14/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindCygwin.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPerl.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/WriteBasicConfigVersionFile.cmake
+C:/q2/q2rtx/extern/curl/CMake/CurlSymbolHiding.cmake
+C:/q2/q2rtx/extern/curl/CMake/FindLibSSH2.cmake
+C:/q2/q2rtx/extern/curl/CMake/Macros.cmake
+C:/q2/q2rtx/extern/curl/CMake/OtherTests.cmake
+C:/q2/q2rtx/extern/curl/CMake/Platforms/WindowsCache.cmake
+C:/q2/q2rtx/extern/curl/CMake/Utilities.cmake
+C:/q2/q2rtx/extern/curl/CMake/curl-config.cmake.in
+C:/q2/q2rtx/extern/curl/CMakeLists.txt
+C:/q2/q2rtx/extern/curl/curl-config.in
+C:/q2/q2rtx/extern/curl/libcurl.pc.in

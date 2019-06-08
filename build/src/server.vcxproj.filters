@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\q2\q2rtx\src\common\bsp.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\cmd.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\cmodel.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\common.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\cvar.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\error.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\field.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\fifo.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\files.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\math.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\mdfour.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\msg.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\pmove.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\prompt.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\sizebuf.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\utils.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\zone.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\net\chan.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\net\net.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\common\x86\fpu.c">
+      <Filter>common\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\shared\m_flash.c">
+      <Filter>shared\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\shared\shared.c">
+      <Filter>shared\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\ac.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\debug.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\hunk.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\windows\system.c">
+      <Filter>windows\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\commands.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\entities.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\game.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\init.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\main.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\send.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\user.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\world.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\client.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\parse.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\mvd\game.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\save.c">
+      <Filter>server\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\server\ac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\q2\q2rtx\src\client\null.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\inet_ntop.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\inet_pton.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\common\net\win.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\wgl.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\glimp.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\client.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\windows\threads\threads.h">
+      <Filter>windows\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\q2\q2rtx\src\server\server.h">
+      <Filter>server\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\q2\q2rtx\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\q2\q2rtx\src\windows\res\q2rtxded.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C1DAE7C-94A3-3D2D-81F4-B2F98C000535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{F6F0E7B4-8BB4-3539-99EF-32615CA82B1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\headers">
+      <UniqueIdentifier>{91989931-9F10-3253-981B-D251F17FF68E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\sources">
+      <UniqueIdentifier>{BFD2E837-CAD2-394F-9582-A98EC85587C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{911A4EF0-6783-3901-A52F-51576E559197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\headers">
+      <UniqueIdentifier>{D6253A7B-ECB7-37F2-B522-06993BAEFCAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\sources">
+      <UniqueIdentifier>{FC1177B3-0366-3E5B-BF0A-14040770B5EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{3C657208-F89F-3D9A-AE91-11C1AAF5750B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared\sources">
+      <UniqueIdentifier>{6D27C042-0A7A-368A-A6E2-C374A11A01A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{2F1F6B33-94F4-3519-B6C7-DB2C59330FA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows\headers">
+      <UniqueIdentifier>{F7F80C84-27C9-31DF-BAF1-ED273BE7A0D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows\sources">
+      <UniqueIdentifier>{B216B919-BC2B-3200-A10A-A780EE4D4180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

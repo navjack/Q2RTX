@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/q2/q2rtx/build/extern/curl/lib/Makefile.inc.cmake
+C:/q2/q2rtx/extern/curl/lib/CMakeLists.txt
+C:/q2/q2rtx/extern/curl/lib/curl_config.h.cmake
